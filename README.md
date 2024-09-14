@@ -18,7 +18,7 @@ Having a clear, readable code using standardized patterns is almost always more 
 const source = ['one', 'two', 'three']
 
 _.mapValues(
-  _.keyBy(source, (key) => key), // second argument here can be ommitted, as it’s an identity function by default
+  _.keyBy(source, (key) => key), // second argument here can be omitted, as it’s an identity function by default
   (value) => value.toUpperCase()
 ) 
 
